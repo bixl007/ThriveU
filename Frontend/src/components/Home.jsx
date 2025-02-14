@@ -13,6 +13,7 @@ const Home = () => {
             src="https://brilliant.org/videos/homepage/learn-by-doing.webm"
             loop
             autoPlay
+            muted
           ></video>
         </div>
         <div className="flex flex-col flex-wrap gap-5 text-center font-bold">
