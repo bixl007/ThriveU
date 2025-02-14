@@ -1,11 +1,15 @@
 
 import Home from '../components/Home'
+import Marquee from '../components/Marquee'
+
 
 
 function Landing() {
   return (
     <div>
-        <Home />
+      <Home />
+      <Marquee />
+
     </div>
   )
 }
