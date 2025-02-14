@@ -2,13 +2,9 @@ import Button from "./Button";
 
 const AppBar = () => {
   return (
-    <div className="w-full bg-white shadow-md">
-      <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center p-4">
-        <h1 className="text-black text-4xl font-bruce">ThriveU</h1>
-        <div className="flex gap-5 mt-4 md:mt-0">
-          <Button/>
-        </div>
-      </div>
+    <div className="flex justify-between items-center px-4 py-2 lg:px-50 md:px-10 shadow-xl">
+      <div className="text-3xl py-2">Thrive</div>
+      <div><Button /></div>
     </div>
   );
 };
