@@ -25,7 +25,7 @@ const LoadingAnimation = () => {
       })
       .to("#loader", {
         opacity: 0,
-        duration: 0.5,
+        duration: 2.5,
       })
       .to("#loader", {
         display: "none",

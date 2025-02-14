@@ -2,6 +2,9 @@ import { useState, useEffect } from "react";
 import Home from "../components/Home";
 import Marquee from "../components/Marquee";
 import LoadingAnimation from "../components/LoadingAnimation"; // Import animation component
+import Section1 from "../components/Section1";
+import Section2 from "../components/Section2";
+import Footer from "../components/Footer";
 
 function Landing() {
   const [loading, setLoading] = useState(true);
@@ -16,6 +19,9 @@ function Landing() {
         <>
           <Home />
           <Marquee />
+          <Section1/>
+          <Section2/>
+          <Footer/>
         </>
       )}
     </div>

@@ -4,7 +4,7 @@ import { FaFacebookF, FaTwitter, FaInstagram, FaLinkedinIn, FaYoutube } from 're
 function Footer() {
   return (
     <div>
-      <footer className="bg-black text-white py-12 px-6 md:px-12 rounded-t-full">
+      <footer className="bg-zinc-800 text-white py-12 px-6 md:px-12 rounded-t-full">
         <div className="ml-52 grid grid-cols-1 md:grid-cols-4 gap-8">
           <div>
             <h3 className="text-xl font-bold mb-4">ThriveU</h3>
