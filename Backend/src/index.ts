@@ -8,7 +8,13 @@ const PORT = process.env.PORT || 8080;
 const API_KEY = process.env.API_KEY;
 
 const app = express();
-app.use(cors());
+app.use(cors({
+  origin: "*", // Allow all origins
+  methods: ["GET", "POST", "PUT", "DELETE"], // Allow these HTTP methods
+  allowedHeaders: ["Content-Type", "Authorization"], // Allow these headers
+  credentials: true, // Allow cookies and authentication headers
+}));
+
 app.use(bodyParser.json());
 dotenv.config();
 
