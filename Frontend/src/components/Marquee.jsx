@@ -24,7 +24,7 @@ const Marquee = () => {
         >
           {/* Text adapts to screen size */}
           {Array(12)
-            .fill("⚡ Smooth GSAP Animations • Creative Effects • Stunning UI Designs •")
+            .fill("⚡ AI-driven doubt solving  ⚡ Interactive quizzes & tests ⚡ AI-powered feedback ")
             .map((text, index) => (
               <span key={index} className="text-3xl md:text-5xl">{text}</span>
             ))}
