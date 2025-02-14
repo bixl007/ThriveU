@@ -17,7 +17,8 @@ const Home = () => {
         </div>
         <div className="flex flex-col flex-wrap gap-5 text-center font-bold">
           <div className="text-2xl">
-            Interactive problem solving that’s effective and fun.
+            <span className="text-5xl text-[rgb(90,50,135)]">Interactive </span> problem solving that’s 
+           <span className="text-3xl text-[rgb(90,50,135)]"> effective and fun.</span> 
           </div>
           <div className="text-2xl">Get smarter in 15 minutes a day.</div>
         </div>
