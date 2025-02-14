@@ -1,31 +1,39 @@
-import AppBar from "./AppBar"
+import AppBar from "./AppBar";
 import Button from "./Button";
 
 // import React from 'react'
 
-
 const Home = () => {
   return (
-    <div className="h-screen w-full overflow-hidden">
-          <AppBar />
-      <div className="w-[1200px] ml-88 "><video className="mt-20" src="https://brilliant.org/videos/homepage/learn-by-doing.webm" loop autoPlay muted></video></div>
-      <div className="mt-40 text-center flex items-center justify-center flex-col gap-20">
-        <h1 className="text-xl w-[600px] font-semibold">Interactive problem solving that’s effective and fun. <br /> &nbsp;  &nbsp; Get smarter in 15 minutes a day.</h1>
-        <Button width="w-72" />
-      </div>
-      <div className="w-full h-screen border-1 mt-24 p-10">
-        <div className="flex justify-between">
-          
-            <h1 className="text-xl font-medium">MATHS</h1>
-            <h1 className="text-xl font-medium">ALGO</h1>
-            <h1 className="text-xl font-medium">PREP</h1>
-            <h1 className="text-xl font-medium">AI</h1>
-          <h1 className="text-xl font-medium">REASONING</h1>
-
+    <div>
+      <AppBar />
+      <div className="flex flex-col justify-center items-center mt-10 gap-20">
+        <div className="w-120 lg:w-300 md:w-200 ">
+          <video
+            src="https://brilliant.org/videos/homepage/learn-by-doing.webm"
+            loop
+            autoPlay
+          ></video>
+        </div>
+        <div className="flex flex-col flex-wrap gap-5 text-center font-bold">
+          <div className="text-2xl">
+            Interactive problem solving that’s effective and fun.
+          </div>
+          <div className="text-2xl">Get smarter in 15 minutes a day.</div>
+        </div>
+        <div>
+          <Button />
+        </div>
+        <div className="flex flex-wrap gap-2  border-black py-5 w-full justify-between px-2 font-medium text-lg md:gap-5 md:py-10 md:px-10 md:text-2xl">
+          <div>Maths</div>
+          <div>Web Dev</div>
+          <div>Science</div>
+          <div>Programming</div>
+          <div>Engineering</div>
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
 export default Home;
