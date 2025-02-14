@@ -1,1 +1,14 @@
 @import "tailwindcss";
+@font-face {
+  font-family: Bruce Forever;
+  font-style: normal;
+  font-weight: 200 700;
+  font-display: swap;
+  src: url("./assets/Font/BruceForever.ttf") format("truetype");
+}
+
+
+@theme{
+    --font-bruce: "Bruce Forever", "sans-serif";
+    
+}
