@@ -3,7 +3,6 @@ import { gsap } from "gsap";
 
 const LoadingAnimation = () => {
   useEffect(() => {
-    // Staggered Text Animation
     const heading = document.querySelector("#loader h3");
     const words = heading.innerText.split(" ").map(
       (word) => `<span class='word'>${word}</span>`

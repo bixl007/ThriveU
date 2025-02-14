@@ -1,8 +1,6 @@
 import AppBar from "./AppBar";
 import Button from "./Button";
 
-// import React from 'react'
-
 const Home = () => {
   return (
     <div>
