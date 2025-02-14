@@ -1,7 +1,6 @@
 import AppBar from "./AppBar"
 import Button from "./Button";
 
-
 // import React from 'react'
 
 
@@ -21,7 +20,8 @@ const Home = () => {
             <h1 className="text-xl font-medium">ALGO</h1>
             <h1 className="text-xl font-medium">PREP</h1>
             <h1 className="text-xl font-medium">AI</h1>
-            <h1 className="text-xl font-medium">REASONING</h1>
+          <h1 className="text-xl font-medium">REASONING</h1>
+
         </div>
       </div>
     </div>
