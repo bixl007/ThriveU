@@ -13,7 +13,7 @@ function Footer() {
           <div>
             <h4 className="text-lg font-semibold mb-3">Resources</h4>
             <ul className="text-gray-400 space-y-2">
-              <li><a href="#" className="hover:text-yellow-500">Blog</a></li>
+              <li><a href="/aboutus" className="hover:text-yellow-500">About Us</a></li>
               <li><a href="#" className="hover:text-yellow-500">E-books</a></li>
               <li><a href="#" className="hover:text-yellow-500">Webinars</a></li>
               <li><a href="#" className="hover:text-yellow-500">Case Studies</a></li>
